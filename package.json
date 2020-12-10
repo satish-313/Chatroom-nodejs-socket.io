@@ -1,0 +1,28 @@
+{
+  "name": "chatroom-nodejs-socket.io",
+  "version": "1.0.0",
+  "description": "realtime chatroom",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satish-313/Chatroom-nodejs-socket.io.git"
+  },
+  "author": "satish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satish-313/Chatroom-nodejs-socket.io/issues"
+  },
+  "homepage": "https://github.com/satish-313/Chatroom-nodejs-socket.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
